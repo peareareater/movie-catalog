@@ -1,0 +1,31 @@
+.text {
+    &_theme_black {
+        color: #000;
+    }
+
+    &_theme_white {
+        color: #fff;
+    }
+
+    &_size_md {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &_size_lg {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    &_size_xl {
+        font-size: 18px;
+        line-height: 1.4;
+
+        @media all and (min-width: 768px) {
+            font-size: 22px;
+        }
+    }
+    &_align-center {
+        text-align: center;
+    }
+}

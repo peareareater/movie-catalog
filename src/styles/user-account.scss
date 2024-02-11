@@ -1,0 +1,15 @@
+.user-account {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+
+    &__text {
+        display: none;
+        
+        @media all and (min-width: 768px) {
+            display: block;
+        }
+    }
+}

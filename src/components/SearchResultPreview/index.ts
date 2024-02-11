@@ -1,0 +1,1 @@
+export { SearchResultPreview } from './SearchResultPreview';

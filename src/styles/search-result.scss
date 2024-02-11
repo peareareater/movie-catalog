@@ -1,0 +1,12 @@
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    @media all and (min-width: 768px) {
+        justify-content: start;
+        margin-bottom: 84px;
+    }
+}

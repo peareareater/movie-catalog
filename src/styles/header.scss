@@ -1,0 +1,25 @@
+.header {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 40px;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__input {
+        position: relative;
+        order: 1;
+        width: 100%;
+        max-width: 300px;
+
+        grid-column: span 2;
+        margin: 0 auto;
+
+        @media all and (min-width: 768px) {
+            width: 280px;
+            margin: unset;
+        }
+    }
+
+    &__logo {
+        width: 190px;
+    }
+}

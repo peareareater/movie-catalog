@@ -1,0 +1,17 @@
+.movie-card {
+    width: 300px;
+
+    &__image-container {
+        height: 444px;
+        border: solid 1px #6627ff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 23px;
+    }
+    &__description {
+        margin: 0 13px;
+    }
+}
